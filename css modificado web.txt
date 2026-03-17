@@ -1,0 +1,72 @@
+.contactus .hestia-info .icon, .contactus .info .icon {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.copyright.pull-right {
+	display: none;
+}
+
+.woocommerce-ordering {
+	display: none;
+}
+
+.card .card-image, .card-no-width .card-image {
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    margin-top: -30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 6px;
+}
+
+/* tarjeta completa */
+.woocommerce ul.products li.product{
+    display:flex;
+}
+
+/* Contenedor de tarjetas: se asegura que las tarjetas se alineen en fila y tengan la misma altura */
+.woocommerce .products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Cada tarjeta */
+.card, .card-no-width {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contenido de la tarjeta */
+.card .content,
+.card-no-width .content {
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1; /* hace que todas las tarjetas de la fila tengan misma altura */
+}
+
+.card-product .category{
+	display:none;
+}
+
+.card-product .card-description {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h4.card-title {
+    text-align: center;
+		height:auto;	!important
+}
+
+.wpc-edit-filter-set {
+    font-size: 13px;
+    display: none;
+}
